@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guvi - Website Replica</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!--nav bar-->
+    <nav>
+        <div class="logo-container">
+            <!-- hamburger menu -->
+            <a href="javascript:void(0);" class="icon" onclick="openMenu()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a class="logo" href="index.html"><img id="logo" src="images/logo.webp" alt="logo"></a>
+        </div>
+        <div class="links-container">
+            <ul class="nav-links">
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">LIVE Classes</a></li>
+                <li><a href="#">Practice</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Our Solutions</a></li>
+            </ul>
+            <!-- profile photo -->
+            <a href="#"><img id="profile" src="images/profile.jpg" alt="profile"></a>
+        </div>
+    </nav>
+
+    <!-- form section -->
+    <main>
+        <section class="form-section">
+            <img src="images/dots.webp" class="bg-img-1">
+            <img src="images/dots.webp" class="bg-img-2">
+            <div class="form-container">
+                <div class="contact-content">
+                    <h1>Contact Us</h1>
+                    <p>Let us know your queries, feedbacks and enquiries. We are here to support you 24/7.</p>
+                    <hr>
+                    <div class="content-item">
+                        <img src="images/phone-icon.webp" alt="phone" style="width: 45px; height: 45px;">
+                        <div class="item-text" style="margin-left: 4rem;">
+                            <div class="text-heading">Give us a call</div>
+                            <div class="text-content">+91 9736097320</div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="content-item">
+                        <img src="images/msg-icon.webp" alt="message" style="width: 65px; height: 25px;">
+                        <div class="item-text" style="margin-left: 3rem;">
+                            <div class="text-heading">Write to us</div>
+                            <div class="text-content">cs@guvi.in</div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="content-item">
+                        <img src="images/location-icon.webp" alt="location" style="width: 45px; height: 55px;">
+                        <div class="item-text" style="margin-left: 5rem;">
+                            <div class="text-heading">Visit us in Chennai @</div>
+                            <div class="text-content">IITM Research park - phase 2, module #9, 3rd floor, D block, Kanagam Rd, Tharamani, Chennai, Tamil Nadu 600113</div>
+                            <div class="text-heading">Visit us in Noida @</div>
+                            <div class="text-content">A11, HCL Corporation Pvt. Ltd, Block A, Sector 3, Noida, Uttar Pradesh 201307</div>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="contact-form">
+                    <h2>Say <span style="color: #0a993f;">Hello !</span></h2>
+                    <p>Feel free to stop by and say hi !</p>
+                    <form id="contact-us-form" action="javascript:void(0);">
+                        <label for="name">Name<span style="color: red">*</span></label><br>
+                        <input type="text" id="name"><br>
+                        <label for="email">E-mail id<span style="color: red">*</span></label><br>
+                        <input type="text" id="email"><br>
+                        <label for="phone">Contact Number<span style="color: red">*</span></label><br>
+                        <input type="tel" id="phone"><br>
+                        <label for="subject">Subject<span style="color: red">*</span></label><br>
+                        <input type="text" id="subject"><br>
+                        <label for="message">Message<span style="color: red">*</span></label><br>
+                        <textarea id="message"></textarea><br>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer section -->
+    <footer>
+        <div class="footer">
+            <div class="footer-upper">
+                <div class="footer-section">
+                    <h3>Zen Class <span style="color: red;">LIVE CLASS</span></h3>
+                    <ul>
+                        <li><a href="#">Full Stack Development</a></li>
+                        <li><a href="#">Automation &amp; Testing</a></li>
+                        <li><a href="#">Data Science</a></li>
+                        <li><a href="#">UI/UX</a></li>
+                        <li><a href="#">DevOps</a></li>
+                        <li><a href="#">Data Engineering</a></li>
+                        <li><a href="#">Business Analytics with Digital Marketing</a></li>
+                        <li><a href="#">All Programs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Popular Courses</h3>
+                    <ul>
+                        <li><a href="#">Python - IITM Pravartak Certified</a></li>
+                        <li><a href="#">Java</a></li>
+                        <li><a href="#">Mobile Hacking</a></li>
+                        <li><a href="#">C Programming</a></li>
+                        <li><a href="#">AWS</a></li>
+                        <li><a href="#">Angular</a></li>
+                        <li><a href="#">Dark Web</a></li>
+                        <li><a href="#">All Courses</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Self-Paced Courses</h3>
+                    <ul>
+                        <li><a href="#">Premium Pass</a></li>
+                        <li><a href="#">Courses Library</a></li>
+                        <li><a href="#">Free Library</a></li>
+                        <li><a href="#">Combos</a></li>
+                    </ul>
+                    <h3>Practice Platforms</h3>
+                    <ul>
+                        <li><a href="#">Codekata</a></li>
+                        <li><a href="#">Webkata</a></li>
+                        <li><a href="#">Debugging</a></li>
+                        <li><a href="#">IDE</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Products</h3>
+                    <ul>
+                        <li><a href="#">HackerKid</a></li>
+                        <li><a href="#">Placement Preparation</a></li>
+                        <li><a href="#">GUVI for Corporates</a></li>
+                    </ul>
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Learn Hub <span style="color: red;">New</span></a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Web Stories</a></li>
+                        <li><a href="#">Forum</a></li>
+                        <li><a href="#">Rewards</a></li>
+                        <li><a href="#">Refer a friend</a></li>
+                        <li><a href="#">Become an Affiliate</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">Refund Policy</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-lower">
+                <img src="images/footer.png">
+                <hr>
+                <div class="footer-lower-text">
+                    <p>© 2021 GUVI. All Rights Reserved.</p>
+                    <p>Terms of Use | Privacy Policy</p>
+                </div>
+            </div>
+    </footer>
+
+    <script src="dist/form-handler.js"></script>
+</body>
+
+</html>

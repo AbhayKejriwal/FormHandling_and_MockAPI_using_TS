@@ -6,3 +6,10 @@ This project demonstrates form handling and interaction with a MockAPI using Typ
 - Responsive navigation bar
 - Contact form with validation
 - Integration with a mock API
+
+## Screenshots
+- Form Submission Successful Screenshot
+![Form Submission Successful](Form_Submission_Successful_Screenshot.png)
+
+- MockAPI Data Received Screenshot
+![MockAPI Data Received](MockAPI_Data_Received_Screenshot.png)
